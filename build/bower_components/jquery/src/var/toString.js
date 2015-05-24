@@ -1,0 +1,7 @@
+define([
+	"./class2type"
+], function( class2type ) {
+	return class2type.toString;
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJqcXVlcnkvc3JjL3Zhci90b1N0cmluZy5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJkZWZpbmUoW1xuXHRcIi4vY2xhc3MydHlwZVwiXG5dLCBmdW5jdGlvbiggY2xhc3MydHlwZSApIHtcblx0cmV0dXJuIGNsYXNzMnR5cGUudG9TdHJpbmc7XG59KTtcbiJdLCJmaWxlIjoianF1ZXJ5L3NyYy92YXIvdG9TdHJpbmcuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

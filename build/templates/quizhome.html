@@ -1,0 +1,21 @@
+<div data-ng-controller="QuizCtrl as qCtrl">
+<div class="container">
+<div class="row">
+<h1 class="col-xs-4">Hi <small>{{qCtrl.model.emailId}}</small></h1>
+<div class="col-xs-4"></div>
+<div class="col-xs-4 flt-r" page-timer totaltime="3"></div>
+</div>
+<div class="row">
+<div class="col-xs-12 text-center">
+<h2>Question {{qCtrl.model.question.qNumber}}</h2>
+<h3>{{qCtrl.model.question.question}}</h3>
+<div data-ng-repeat="option in qCtrl.model.question.options">
+<input type="button" value="{{option}}" data-ng-click="qCtrl.count(option,qCtrl.model.question.group)" class="btn btn-primary btn-lg mrg-button" />
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+

@@ -1,0 +1,4 @@
+.flt-r{float:right}.mrg-button{margin:10px}
+.showSpinner{position:fixed;opacity:.5;height:100%;width:100%;background:url('../images/spinner.gif') no-repeat 50% 50% #ccc}
+.timerContainer{border-radius:4px;width:200px;border:1px solid green}.timerBar{height:20px;background-color:green}
+.resultsStatistics{font-size:1.3rem;font-weight:bold}

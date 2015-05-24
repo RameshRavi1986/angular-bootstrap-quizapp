@@ -1,0 +1,11 @@
+define([
+	"../var/support"
+], function( support ) {
+
+support.focusinBubbles = "onfocusin" in window;
+
+return support;
+
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJqcXVlcnkvc3JjL2V2ZW50L3N1cHBvcnQuanMiXSwic291cmNlc0NvbnRlbnQiOlsiZGVmaW5lKFtcblx0XCIuLi92YXIvc3VwcG9ydFwiXG5dLCBmdW5jdGlvbiggc3VwcG9ydCApIHtcblxuc3VwcG9ydC5mb2N1c2luQnViYmxlcyA9IFwib25mb2N1c2luXCIgaW4gd2luZG93O1xuXG5yZXR1cm4gc3VwcG9ydDtcblxufSk7XG4iXSwiZmlsZSI6ImpxdWVyeS9zcmMvZXZlbnQvc3VwcG9ydC5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

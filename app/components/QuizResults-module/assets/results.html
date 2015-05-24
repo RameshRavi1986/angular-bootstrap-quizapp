@@ -1,0 +1,18 @@
+<div data-ng-controller="QuizResultsCtrl as qResCtrl">
+
+<div class="container resultsContainer">
+<h1>Thank you, Compare your answers with other users</h1>
+<div data-ng-repeat="result in qResCtrl.model.results" class="row">
+<div  class="col-md-4">
+<h2>Question{{$index+1}} </h2>
+	<div data-ng-repeat="item in result.counts" class="row">
+		<div class="col-md-12 resultsStatistics">
+			{{item.item}}:{{item.count}}
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+
+

@@ -1,0 +1,8 @@
+define([
+	"../../core",
+	"../../selector"
+], function( jQuery ) {
+	return jQuery.expr.match.needsContext;
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJqcXVlcnkvc3JjL3RyYXZlcnNpbmcvdmFyL3JuZWVkc0NvbnRleHQuanMiXSwic291cmNlc0NvbnRlbnQiOlsiZGVmaW5lKFtcblx0XCIuLi8uLi9jb3JlXCIsXG5cdFwiLi4vLi4vc2VsZWN0b3JcIlxuXSwgZnVuY3Rpb24oIGpRdWVyeSApIHtcblx0cmV0dXJuIGpRdWVyeS5leHByLm1hdGNoLm5lZWRzQ29udGV4dDtcbn0pO1xuIl0sImZpbGUiOiJqcXVlcnkvc3JjL3RyYXZlcnNpbmcvdmFyL3JuZWVkc0NvbnRleHQuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

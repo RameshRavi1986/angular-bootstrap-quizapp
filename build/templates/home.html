@@ -1,0 +1,15 @@
+<div data-ng-controller="QuizAppRegisterCtrl as qAppCtrl" class="container">
+<div class="page-header text-center">
+	<h1>Welcome</h1>
+</div>
+<div class="row">
+	<div class="col-sm-12 text-center">
+		<div>{{qAppCtrl.model.errorMessage}}</div>
+		<label for="emailId">Please put your name to start</label><br/>
+		<input type="email" name="emailId" required data-ng-model="qAppCtrl.model.emailId" value="fgfh"/>
+		<input type="submit" name="startTest" value="start" data-ng-click="qAppCtrl.model.navigate()" class="btn btn-primary"/>
+	</div>
+</div>
+</div>
+
+

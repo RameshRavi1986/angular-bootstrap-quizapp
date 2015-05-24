@@ -1,0 +1,16 @@
+define([
+	"./core",
+	"sizzle"
+], function( jQuery, Sizzle ) {
+
+jQuery.find = Sizzle;
+jQuery.expr = Sizzle.selectors;
+jQuery.expr[":"] = jQuery.expr.pseudos;
+jQuery.unique = Sizzle.uniqueSort;
+jQuery.text = Sizzle.getText;
+jQuery.isXMLDoc = Sizzle.isXML;
+jQuery.contains = Sizzle.contains;
+
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJqcXVlcnkvc3JjL3NlbGVjdG9yLXNpenpsZS5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJkZWZpbmUoW1xuXHRcIi4vY29yZVwiLFxuXHRcInNpenpsZVwiXG5dLCBmdW5jdGlvbiggalF1ZXJ5LCBTaXp6bGUgKSB7XG5cbmpRdWVyeS5maW5kID0gU2l6emxlO1xualF1ZXJ5LmV4cHIgPSBTaXp6bGUuc2VsZWN0b3JzO1xualF1ZXJ5LmV4cHJbXCI6XCJdID0galF1ZXJ5LmV4cHIucHNldWRvcztcbmpRdWVyeS51bmlxdWUgPSBTaXp6bGUudW5pcXVlU29ydDtcbmpRdWVyeS50ZXh0ID0gU2l6emxlLmdldFRleHQ7XG5qUXVlcnkuaXNYTUxEb2MgPSBTaXp6bGUuaXNYTUw7XG5qUXVlcnkuY29udGFpbnMgPSBTaXp6bGUuY29udGFpbnM7XG5cbn0pO1xuIl0sImZpbGUiOiJqcXVlcnkvc3JjL3NlbGVjdG9yLXNpenpsZS5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

@@ -1,0 +1,4 @@
+require('./angular');
+module.exports = angular;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJhbmd1bGFyL2luZGV4LmpzIl0sInNvdXJjZXNDb250ZW50IjpbInJlcXVpcmUoJy4vYW5ndWxhcicpO1xubW9kdWxlLmV4cG9ydHMgPSBhbmd1bGFyO1xuIl0sImZpbGUiOiJhbmd1bGFyL2luZGV4LmpzIiwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=
